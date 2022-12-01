@@ -1,0 +1,30 @@
+[
+
+  {
+    "id": "1",
+    "name": "upstream-user",
+    "type": "roundrobin",
+    "nodes": {
+      "192.168.25.17:8085": 1
+    }
+  },
+
+  {
+    "id": "2",
+    "name": "upstream-web1",
+    "type": "roundrobin",
+    "nodes": {
+      "192.168.25.17:9081": 1
+    }
+  },
+
+  {
+    "id": "3",
+    "name": "upstream-web2",
+    "type": "roundrobin",
+    "nodes": {
+      "192.168.25.17:9082": 1
+    }
+  }
+
+]
