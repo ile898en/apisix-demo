@@ -37,7 +37,7 @@ authentication:
 
 ## Modules
 ### apisix_conf
-该目录下的`config.yaml`是apisix的配置文件，关于该配置文件的解释可以查看官方提供的`config-default.yaml`文件
+该目录下的`config.yaml`是apisix的配置文件，关于该配置文件的解释可以查看官方提供的<a href="https://github.com/apache/apisix/blob/master/conf/config-default.yaml">config-default.yaml</a>文件
 
 值得注意的是，该配置文件中的`deployment: admin: admin_key`配置项用来定义访问apisix admin api的密钥，
 建议修改掉文件中的默认值；
