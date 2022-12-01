@@ -22,6 +22,7 @@ ADMIN_API_KEY="edd1c9f034335f136f87ad84b625c8f1"
 ADMIN_HTTP_HEADER="X-API-KEY: ${ADMIN_API_KEY}"
 JSON_HTTP_HEADER="Content-Type: application/json"
 
+# apisix admin api endpoints
 CREATE_CERT_URL="http://apisix:9180/apisix/admin/ssls/"
 CREATE_ROUTE_URL="http://apisix:9180/apisix/admin/routes/"
 CREATE_UPSTREAM_URL="http://apisix:9180/apisix/admin/upstreams/"
