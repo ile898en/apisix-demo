@@ -84,10 +84,10 @@ fi
 该目录下是`start.sh`脚本执行过程中生成的日志文件
 #### routes
 routes目录下存放的是一些需要初始化的路由信息<br>
-See [ROUTES_SAMPLE.md](apisix_init/routes/route_sample.md)
+See [routes.json](apisix_init/routes/routes.json)、[ROUTES_SAMPLE.md](apisix_init/routes/route_sample.md)
 #### upstream
 upstream目录下存放的是一些需要初始化的upstream信息<br>
-See [UPSTREAM_SAMPLE.md](apisix_init/upstream/upstream_sample.md)
+See [upstream.json](apisix_init/upstream/upstream.json)、[UPSTREAM_SAMPLE.md](apisix_init/upstream/upstream_sample.md)
 #### Dockefile
 apisix_init所依赖的docker文件
 #### start.sh
